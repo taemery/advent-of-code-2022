@@ -13,7 +13,7 @@ part_2_total = 0
 def priority(character):
     # Convert lowercase to correct int. lowercase is greater than uppercase in unicode
     if(character >= 'a'):
-            # Reduce unicode to an a, then make a a 1
+        # Reduce unicode to an a, then make a a 1
         return ord(character) - ord('a') + 1
     else:
         # Reduce unicode to an A, then make A a 1, then increase by 26 for weighting
